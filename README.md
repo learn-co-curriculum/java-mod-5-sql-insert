@@ -150,8 +150,9 @@ WHERE id = 5;
 ```
 
 NOTE: It is very important to ensure the `WHERE` clause is correct, otherwise we might
-update the wrong row!    It is usually a good idea to first write a query using the `SELECT`
-statement with the **before** executing an update to see which rows will be affected:
+update the wrong row!    It is a good idea to first write a query using the `SELECT`
+statement with the `WHERE` clause to see which rows will be affected.  Do this **before**
+executing the `UPDATE` statement:
 
 ```SQL
 SELECT *
@@ -192,7 +193,14 @@ DELETE FROM pet
 WHERE id = 6;
 ```
 
+Once again, it is a good idea to first write a query using the `SELECT`
+statement with the `WHERE` clause to see which rows will be selected.
+If the `WHERE` clause picks the correct rows, convert the statement
+into a `DELETE` statement.
 
+**Caution** - If the `DELETE` statement does not have a `WHERE` clause, all rows will be deleted!
+
+  
 ## Conclusion
 
 We've seen how to use SQL's `INSERT`, `UPDATE`, and `DELETE`  statements to respective
