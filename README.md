@@ -108,6 +108,12 @@ to remove the `INSERT` statements:
 
 ![clear query](https://curriculum-content.s3.amazonaws.com/6036/sql-select-statement/clearquery.png)
 
+Select Yes to discard the changes.  This does not undo the changes to the table, it simply erases
+the changes to the panel editor.
+
+![discard statements](https://curriculum-content.s3.amazonaws.com/6036/sql-select-statement/confirmdiscard.png)
+
+
 Now we can query the `pet` table to confirm it now contains 6 rows:
 
 ![select all rows](https://curriculum-content.s3.amazonaws.com/6036/sql-insert-statement/select6rows.png
