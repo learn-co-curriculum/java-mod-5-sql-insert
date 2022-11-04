@@ -8,7 +8,7 @@
 
 ## Introduction
 
-SQL provides `INSERT`, `UPDATE`, and `DELETE`  statements to respective
+SQL provides `INSERT`, `UPDATE`, and `DELETE`  statements to respectively
 add, update, and delete a table row.  
 
 We will continue working with the
@@ -212,7 +212,7 @@ into a `DELETE` statement.
   
 ## Conclusion
 
-We've seen how to use SQL's `INSERT`, `UPDATE`, and `DELETE`  statements to respective
+We've seen how to use SQL's `INSERT`, `UPDATE`, and `DELETE`  statements to respectively
 add, update, and delete rows in a table.
 
 ## Resources
