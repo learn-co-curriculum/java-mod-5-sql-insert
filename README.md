@@ -102,10 +102,13 @@ The query tool can execute multiple SQL statements.
 3. The message should confirm the statement was successful.
 
 ![insert 5 rows](https://curriculum-content.s3.amazonaws.com/6036/sql-insert-statement/insert5rows.png)
+  
+After executing the SQL statements listed above, clear the query panel
+to remove the `INSERT` statements:
 
+![clear query](https://curriculum-content.s3.amazonaws.com/6036/sql-select-statement/clearquery.png)
 
-
-Query the `pet` table to confirm it now contains 6 rows:
+Now we can query the `pet` table to confirm it now contains 6 rows:
 
 ![select all rows](https://curriculum-content.s3.amazonaws.com/6036/sql-insert-statement/select6rows.png
 )
